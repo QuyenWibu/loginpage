@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+#themeToggle{
+    background: url(./icon/day-and-night.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px; 
+    height: 30px; 
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(0%) contrast(100%);
+
+}
